@@ -12,7 +12,7 @@ function App() {
   return (
     <div>
       {view === "login" && <Login setView={setView} />}
-      {view === "registerUser" && <CrearUsuario setView={setView} />} {/* Aquí cambiamos a CrearUsuario */}
+      {view === "registerUser" && <CrearUsuario setView={setView} />} 
       {view === "registerAdmin" && <CrearAdmin setView={setView} />}
       {view === "userPurchase" && <UsuarioCompra setView={setView} />}
       {view === "historialCompras" && <HistorialCompras setView={setView} />}
