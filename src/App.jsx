@@ -1,6 +1,6 @@
 import { useState } from "react";
 import Login from "./login";
-import CrearUsuario from "./CrearUsuario";
+import CrearUsuario from "./CrearUsuarioTemp";
 import CrearAdmin from "./crearadmin";
 import UsuarioCompra from "./usuariocompra";
 import HistorialCompras from "./historialcompras";
