@@ -13,7 +13,7 @@ export default function HistorialCompras() {
 
   // 📌 Actualizar estado de la compra en el backend
   const actualizarEstado = (id) => {
-    fetch(`http://localhost:5000/compras/actualizarEstado/${id}`, {
+    fetch(`https://parcial-backend-three.vercel.app/compras/actualizarEstado/${id}`, {
       method: "PUT",
       headers: {
         "Content-Type": "application/json",

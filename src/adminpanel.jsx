@@ -14,7 +14,7 @@ export default function AdminPanel({ setView }) {
   }, []);
 
   const actualizarEstado = (id, nuevoEstado) => {
-    fetch(`http://localhost:5000/api/actualizarEstado/${id}`, {
+    fetch(`https://parcial-backend-three.vercel.app/api/actualizarEstado/${id}`, {
       method: "PATCH",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ estado: nuevoEstado }),

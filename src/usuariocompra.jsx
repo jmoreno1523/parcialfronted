@@ -34,7 +34,7 @@ function UsuarioCompra() {
       
       // Enviar datos al backend
       try {
-        const response = await fetch("http://localhost:5000/api/nuevaVenta", {
+        const response = await fetch("https://parcial-backend-three.vercel.app/api/nuevaVenta", {
           method: "POST",
           headers: { "Content-Type": "application/json" },
           body: JSON.stringify({
